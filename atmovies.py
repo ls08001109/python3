@@ -22,7 +22,7 @@ def handler():
 
 @app.route('/read_csv', methods=['post'])
 def read_csv():
-    with open("/tmp/data.csv", "r") as f:
+    with open("/tmp/data.csv", "r", encoding='utf-8') as f:
         data = f.read()
         data = data.replace("\n", "<br>")
         return data
