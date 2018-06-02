@@ -1,0 +1,7 @@
+Server: Apache/2.2.15 (CentOS)
+Vary: Accept-Encoding
+Link: <https://blog.mowd.tw/wp-json/>; rel="https://api.w.org/"
+Content-Encoding: gzip
+Date: Sun, 27 May 2018 03:46:31 GMT
+X-Powered-By: PHP/5.5.38
+Content-Type: text/plain; charset=utf-8
